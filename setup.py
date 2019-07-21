@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name='funkapi',
-    version='0.1',
+    version='0.1.7',
     install_requires=requirements,
     license='MIT License',
     author='Tim-Luca Lagmöller',
@@ -20,7 +20,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: MIT License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
 )
